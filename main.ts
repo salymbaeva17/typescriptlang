@@ -40,3 +40,21 @@ let isArray3: Array<number | string> = [45,65,65, "45", "87"]
 // let isObject : object = 4 // Type 'number' is not assignable to type 'object'.
 let isObject : object = {} // хреновый вариант
 
+
+// интерфейсы и типы в тайпскрипте
+interface User {
+    name: string,
+    age: number,
+    contacts: UserContacts
+}
+interface UserContacts {
+    address: string,
+    tel: string
+}
+
+// type User = {
+//     name: string,
+//     age: "Dima" | "Pasha"
+// }
+
+let isObject1 : User = {name: "Ivan", age: 43, contacts: {address: "Tokombaeva 23/4", tel: "+996500328888"}}
