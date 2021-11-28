@@ -25,7 +25,7 @@ something = false
 something = "Hello"
 
 let isArray: any[] = [45,65,65, "45", "87", true]
-let isArray1: Array<number> = [45,65,65, "45", "87", true]
+// let isArray1: Array<number> = [45,65,65, "45", "87", true]
 // Type 'string' is not assignable to type 'number'.
 // Type 'boolean' is not assignable to type 'number'.
 
