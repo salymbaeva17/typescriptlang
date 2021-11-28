@@ -58,3 +58,11 @@ interface UserContacts {
 // }
 
 let isObject1 : User = {name: "Ivan", age: 43, contacts: {address: "Tokombaeva 23/4", tel: "+996500328888"}}
+
+
+enum Language {
+    English,
+    Polish,
+    Russian
+}
+console.log(Language.Polish) // 1
